@@ -20,19 +20,8 @@
 <artifactId>hamcrest-all</artifactId>
 <version>1.1</version>
 </dependency>
-
-
 </dependencies>
-  <distributionManagement>
-    <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://ec2-52-66-197-29.ap-south-1.compute.amazonaws.com:8081/repository/sc_snapshot/</url>
-    </snapshotRepository>
-    <repository>
-      <id>nexus-releases</id>
-      <url>http://ec2-52-66-197-29.ap-south-1.compute.amazonaws.com:8081/repository/sc_release/</url>
-    </repository>
-  </distributionManagement>
+
 
 
 </project>
