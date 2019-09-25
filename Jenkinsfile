@@ -1,8 +1,8 @@
 pipeline {
   agent any
   environment {
-    PATH = '/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/var/lib/jenkins/jdk1.8.0_221/bin:/home/tom/apache-ant-1.10.7/bin:/var/lib/jenkins/apache-maven-3.6.2/bin'
-    JAVA_HOME = '/var/lib/jenkins/jdk1.8.0_221'
+    PATH = '/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/tom/jdk1.8.0_221/bin:/home/tom/apache-ant-1.10.7/bin:/var/lib/jenkins/apache-maven-3.6.2/bin'
+    JAVA_HOME = '/home/tom/jdk1.8.0_221'
   }
 
   stages {
