@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    PATH = '/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/tom/apache-ant-1.10.7/bin'
+    PATH = '/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/usr/local/apache-ant-1.10.7/bin'
   }
 
   stages {
